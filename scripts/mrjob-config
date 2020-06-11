@@ -1,0 +1,9 @@
+runners:
+  emr:
+    aws_access_key_id: <sua_access_key_aqui>
+    aws_secret_access_key: <sua_secret_key_aqui>
+    ec2_key_pair: EMR
+    ec2_key_pair_file: ~/.ssh/EMR.pem
+    ssh_tunnel: true
+    instance_type: m5.xlarge
+    num_core_instances: 3
