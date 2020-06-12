@@ -4,6 +4,7 @@ runners:
     aws_secret_access_key: <sua_secret_key_aqui>
     ec2_key_pair: EMR
     ec2_key_pair_file: ~/.ssh/EMR.pem
+    region: us-east-2
     ssh_tunnel: true
     instance_type: m5.xlarge
     num_core_instances: 3
