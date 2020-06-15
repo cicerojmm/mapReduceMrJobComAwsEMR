@@ -1,0 +1,2 @@
+docker build --tag mrjob-emr:1.0 .
+docker run mrjob-emr:1.0
